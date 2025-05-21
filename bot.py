@@ -12,7 +12,7 @@ GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Choose the Gemini model
-model = genai.GenerativeModel('gemini-2.5-flash-preview-04-17')
+model = genai.GenerativeModel('gemini-2.5-flash-preview-05-20')
 
 # Initialize Discord client with appropriate intents
 intents = discord.Intents.default()
